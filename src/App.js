@@ -1,9 +1,10 @@
 import './App.css';
+import { Login } from './views/authPage/login/Login';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Some App</h1>
+    <div className="container" >
+      <Login/>
     </div>
   );
 }
